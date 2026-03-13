@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { TbSquareRoundedLetterMFilled } from "react-icons/tb";
 import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
@@ -28,9 +29,10 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="inline-flex items-center text-2xl md:text-5xl text-white font-semibold"
+          aria-label="Home"
         >
-          LOGO
+          <TbSquareRoundedLetterMFilled className="h-8 w-8 md:h-12 md:w-12" />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
