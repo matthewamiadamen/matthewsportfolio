@@ -5,8 +5,17 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  {
+    {
     id: 1,
+    title: "Lámha - Irish Sign Language Communication App",
+    description: "Craicathon 2026 Winner - Innovative app designed to facilitate communication for the deaf community in Ireland, featuring real-time sign recognition and user-friendly interface.",
+    image: "/images/projects/lamhaimage.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/matthewamiadamen/fadofado",
+    previewUrl: "https://fadofado.vercel.app/",
+  },
+  {
+    id: 2,
     title: "University Database Management System",
     description: "Full Stack CRUD application built with react & django deployed with Supabase and Render",
     image: "/images/projects/unidatabaseimage.png",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl: "https://matthewsunidatabaseapp.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Custom Linux Shell",
     description: "A custom linux shell built in C with features like command execution, piping, and redirection, also built online acessible emulator for testing",
     image: "/images/projects/myshellimage.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "https://customunixshell.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Procedural Generation in p5.js demo",
     description: "Demo of procedural generation implemented with Multi-Octave Fractal Noise, Deterministic Seeds, Chunk Generation, Blender Animations and NPC Collison Detection",
     image: "/images/projects/proceduralgenimage.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "https://world.novanai.dev",
   },
   {
-    id: 4,
+    id: 5,
     title: "Irish County Ankinator Game",
     description: "Unique spin on the classic Akinator game, where users test ai models to guess their chosen Irish county based on a series of questions.",
     image: "/images/projects/countyank.png",
@@ -42,7 +51,7 @@ const projectsData = [
     previewUrl: "https://countyankinator.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "CheerpJ Chess App",
     description: "A chess application built with CheerpJ, allowing users to play chess in their browser with a Java-based backend for game logic and state management.",
     image: "/images/projects/chessimage.png",
@@ -51,7 +60,7 @@ const projectsData = [
     previewUrl: "https://mychessapp.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "TFI Leap Card Overhaul",
     description: "A complete redesign and rethinking of the tfi leap card app built in kotlin, focused on an improved user experience and added features.",
     image: "/images/projects/TFI_Live_icon.png",
