@@ -5,7 +5,16 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-    {
+  {
+    id: 0,
+    title: "GrianView - Belfast Solar Intelligence",
+    description: "Solar suitability analysis tool for Belfast properties, using LiDAR data to generate per-address solar radiation reports with confidence scoring and 3D roof visualisation.",
+    image: "/images/projects/grianviewimage.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/matthewamiadamen/grianview",
+    previewUrl: "https://grianview.vercel.app/",
+  },
+  {
     id: 1,
     title: "Lámha - Irish Sign Language Communication App",
     description: "Craicathon 2026 Winner - Innovative app designed to facilitate communication for the deaf community in Ireland, featuring real-time sign recognition and user-friendly interface.",
