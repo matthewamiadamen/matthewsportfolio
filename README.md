@@ -1,30 +1,48 @@
-# Portfolio Website
+# Personal Portfolio
 
-This is my portfolio website built with Next.js and Tailwind CSS.
+*Built with Next.js 14, TypeScript, and Tailwind CSS*
 
-## Installation
+---
 
-1. Clone the repository: `git clone`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+## What Is It?
 
-## Usage
+My personal portfolio website — showcasing projects, skills, and a working contact form. Built with the Next.js App Router, styled with Tailwind CSS, and deployed on Vercel.
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+The contact form sends emails via the **Resend** API. Type animations on the landing page use `react-type-animation`. Icons throughout the site come from `react-icons`.
 
-## Dependencies
+---
 
-The following dependencies are required for this project:
+## Tech Stack
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Email | Resend |
+| Deployment | Vercel |
+
+---
+
+## Running Locally
+
+```bash
+git clone <repo-url>
+cd matthewsportfolio
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+To enable the contact form locally, add a `.env.local` file:
+
+```
+RESEND_API_KEY=your_resend_api_key
+```
+
+---
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
-
+[MIT](https://opensource.org/licenses/MIT)
