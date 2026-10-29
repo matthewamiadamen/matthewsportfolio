@@ -5,6 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import NeuralNetwork from "./components/NeuralNetwork";
+import ExperienceSection from "./components/ExperienceSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <ExperienceSection />
         <ProjectsSection />
         <EmailSection />
       </div>
