@@ -24,9 +24,11 @@ const HeroSection = () => {
               sequence={[
                 "Matthew",
                 1000,
-                "Software Dev",
+                "Software Engineer",
                 1000,
-                "DCU Student",
+                "AI Systems Builder",
+                1000,
+                "Neural Decoding",
                 1000,
               ]}
               wrapper="span"
@@ -35,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            DCU Computer Science student with a passion for software development, eager to contribute my skills and creativity to innovative projects.
+            Final-year Computer Science student at DCU and part-time Software Engineer, building agentic AI systems on AWS, real-time computer vision and brain-computer interfaces.
           </p>
           <div>
             <Link

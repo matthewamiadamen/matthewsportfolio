@@ -8,20 +8,35 @@ const projectsData = [
   {
     id: 0,
     title: "GrianView - Belfast Solar Intelligence",
-    description: "Solar suitability analysis tool for Belfast properties, using LiDAR data to generate per-address solar radiation reports with confidence scoring and 3D roof visualisation.",
+    description: "With a PhD researcher at Queen's University Belfast: ArcGIS solar radiation over the city's LiDAR surface model for 52,872 buildings, a 5-factor suitability scorer, live 3D roofs in Three.js and plain-language payback reports.",
     image: "/images/projects/grianviewimage.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "AI/ML"],
     gitUrl: "https://github.com/matthewamiadamen/grianview",
     previewUrl: "https://grianview.vercel.app/",
   },
   {
     id: 1,
-    title: "Lámha - Irish Sign Language Communication App",
-    description: "Craicathon 2026 Winner - Innovative app designed to facilitate communication for the deaf community in Ireland, featuring real-time sign recognition and user-friendly interface.",
+    title: "Lámha - Irish Sign Language Tutor",
+    description: "Craicathon Create It track winner, now used in Dublin post-primary schools. Real-time in-browser sign recognition (MediaPipe landmarks and a custom KNN classifier) at 85% accuracy, with no paid APIs.",
     image: "/images/projects/lamhaimage.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "AI/ML"],
     gitUrl: "https://github.com/matthewamiadamen/fadofado",
     previewUrl: "https://fadofado.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Cross-Subject SSVEP Brain-Computer Interface",
+    description: "In progress. Decodes which flickering target someone is looking at from EEG without calibrating on them, comparing Euclidean Alignment, Riemannian Alignment and stCCA under leave-one-subject-out evaluation, then on a 4-channel consumer montage.",
+    image: "/images/projects/ssvepimage.jpg",
+    tag: ["All", "AI/ML"],
+  },
+  {
+    id: 9,
+    title: "Mayfain - Verified-Identity Layer for AI Agents",
+    description: "Institution-side MCP servers and a personal-data vault an AI agent completes applications from, without the model seeing raw data. One of 10 teams selected for Pressure Cooker, Dublin AI Week 2026.",
+    image: "/images/projects/mayfainimage.jpg",
+    tag: ["All", "Web", "AI/ML"],
+    previewUrl: "https://mayfain.ie",
   },
   {
     id: 2,
@@ -112,6 +127,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="AI/ML"
+          isSelected={tag === "AI/ML"}
         />
         <ProjectTag
           onClick={handleTagChange}

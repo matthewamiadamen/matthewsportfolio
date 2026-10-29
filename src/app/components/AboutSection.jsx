@@ -10,6 +10,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Dublin City University — BSc in Computer Science (Expected May 2027)</li>
+        <li>Relevant courses: Advanced Algorithms, AI, Data Mining, Full Stack Development, Linear Algebra, Statistics</li>
         <li>Limerick College of Further Education — Introduction to Computer Programming (QQI Level 5, Dec 2021)</li>
       </ul>
     ),
@@ -20,18 +21,19 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-5 grid grid-cols-2 gap-x-8 gap-y-1">
         <li>Python</li>
-        <li>Java</li>
-        <li>C</li>
-        <li>C++</li>
-        <li>SQL</li>
+        <li>TypeScript</li>
         <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>TensorFlow</li>
-        <li>Django</li>
+        <li>Java</li>
+        <li>C / C++</li>
+        <li>SQL</li>
+        <li>AWS (Bedrock, ECS, S3, EventBridge)</li>
+        <li>PostgreSQL (row-level security)</li>
+        <li>Vector search &amp; embeddings</li>
+        <li>LLM routing &amp; RAG</li>
+        <li>Next.js / React</li>
+        <li>Node.js / Fastify</li>
+        <li>TensorFlow / scikit-learn</li>
         <li>Docker</li>
-        <li>Git</li>
-        <li>MongoDB</li>
       </ul>
     ),
   },
@@ -64,13 +66,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hello my name is Matthew I am a student and aspiring software developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, Java, React, Node.js, Express, Mongo DB,
-            Docker, HTML, CSS, and Git. <br></br>
-            I am a quick learner and I am always looking to expand my knowledge and skill set. I work with a strong commitment to
-            building intuitive user experiences writing efficient, maintainable code.
-            I am a team player and I am excited to work with others to create amazing applications.
+            I&apos;m Matthew, a final-year Computer Science student at Dublin City University and a part-time
+            Software Engineer at consulting.ie, where I work directly with the CTO on Pulse, a multi-tenant
+            agentic ERP. My work there spans LLM routing on Amazon Bedrock, vector search, row-level security
+            and data integration on AWS.
+            <br></br><br></br>
+            Outside work I build things people actually use: GrianView maps solar potential for every building
+            in Belfast, and Lámha teaches Irish Sign Language in Dublin schools. I&apos;m now pointing my machine
+            learning work at neural decoding, starting with a cross-subject SSVEP brain-computer interface.
           
           </p>
           <div className="flex flex-row justify-start mt-8">
